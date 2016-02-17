@@ -6,9 +6,9 @@ app.set('port',3000);
 app.get('/',function(req,res){
 	var min = 1;
 	var max = 100;
-	var random = Math.floor(Math.random() * (max - min + 1)) + min;  //Min to Max (inclusive)
+	var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;  //Min to Max (inclusive)
 	res.type('text/plain');
-	res.send('Random Number (' + min + ' to ' + max + 'inclusive): ' + randomNumber);
+	res.send('Random Number (' + min + ' to ' + max + ' inclusive): ' + randomNumber);
 });
 
 /* Error Handler Pages */

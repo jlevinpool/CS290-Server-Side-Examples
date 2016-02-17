@@ -1,0 +1,24 @@
+{
+  "name": "CS290-Server-Side-Examples",
+  "version": "1.0.0",
+  "main": "HelloWorld.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlevinpool/CS290-Server-Side-Examples.git"
+  },
+  "keywords": [],
+  "author": "James Pool <poolj@oregonstate.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlevinpool/CS290-Server-Side-Examples/issues"
+  },
+  "homepage": "https://github.com/jlevinpool/CS290-Server-Side-Examples#readme",
+  "description": ""
+}
