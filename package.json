@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "HelloWorld.js",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0"
   },
   "devDependencies": {},
   "scripts": {

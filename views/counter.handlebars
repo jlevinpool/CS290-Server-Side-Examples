@@ -1,0 +1,9 @@
+<h1>Page visit counter</h1>
+	{{#unless err}}
+	<p>You have visited this page {{count}} times!</p>
+	<form action="/count" method="post">
+		<input type="submit" name="resetCount" value="resetCount"></input>
+	</form>
+{{else}}
+	<p>Invalid POST recieved!</p>
+{{/unless}}
