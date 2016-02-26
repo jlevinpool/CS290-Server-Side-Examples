@@ -38,8 +38,10 @@ app.get('/count', function(req,res){
 /* Reset on POST, if correct */
 app.post('/count', function(req,res){
   	var context = {};
+	console.log(req.body);
 	if (req.body.command === "resetCount"){
 		req.session.count = 0;
+		context.err = false;
 	}
 	else {
 		context.err = true;
